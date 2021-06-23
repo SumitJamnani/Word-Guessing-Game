@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.sumit.wordsearch">
+
+    <application
+        android:name="com.example.sumit.wordsearch.WordSearchApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name="com.example.sumit.wordsearch.features.settings.SettingsActivity"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity android:name="com.example.sumit.wordsearch.features.gameplay.GamePlayActivity">
+        </activity>
+        <activity android:name="com.example.sumit.wordsearch.features.mainmenu.MainMenuActivity">
+        </activity>
+        <activity android:name="com.example.sumit.wordsearch.features.gameover.GameOverActivity">
+        </activity>
+        <activity
+            android:name="com.example.sumit.wordsearch.features.SplashScreenActivity"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.sumit.wordsearch.features.gamehistory.GameHistoryActivity">
+        </activity>
+    </application>
+
+</manifest>
