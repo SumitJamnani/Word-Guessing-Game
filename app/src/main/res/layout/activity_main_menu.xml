@@ -10,7 +10,7 @@
     tools:context="com.example.sumit.wordsearch.features.mainmenu.MainMenuActivity">
 
     <ImageButton
-        android:id="@+id/settings_button"
+        android:id="@+id/about_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
@@ -19,7 +19,7 @@
         android:layout_marginTop="8dp"
         android:background="@android:color/transparent"
         android:padding="5dp"
-        android:src="@drawable/ic_settings"
+        android:src="@drawable/ic_about_us"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
@@ -28,14 +28,14 @@
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="200dp"
         android:contentDescription="@string/app_name"
         android:scaleType="centerInside"
         android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <include
         android:id="@+id/include"

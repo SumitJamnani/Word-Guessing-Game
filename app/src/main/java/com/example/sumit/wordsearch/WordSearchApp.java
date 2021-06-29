@@ -6,10 +6,6 @@ import com.example.sumit.wordsearch.di.component.AppComponent;
 import com.example.sumit.wordsearch.di.component.DaggerAppComponent;
 import com.example.sumit.wordsearch.di.modules.AppModule;
 
-/**
- * Created by abdularis on 18/07/17.
- */
-
 public class WordSearchApp extends Application {
 
     AppComponent mAppComponent;

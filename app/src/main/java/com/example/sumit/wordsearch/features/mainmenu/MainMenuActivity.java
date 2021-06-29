@@ -81,7 +81,7 @@ public class MainMenuActivity extends FullscreenActivity {
         mAdapter.insertAt(0, new HistoryItem());
     }
 
-    @OnClick(R.id.settings_button)
+    @OnClick(R.id.about_button)
     public void onSettingsClick() {
         Intent intent = new Intent(this, SettingsActivity.class);
         startActivity(intent);
