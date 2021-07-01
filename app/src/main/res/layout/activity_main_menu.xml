@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg"
     android:orientation="vertical"
-    tools:context="com.example.sumit.wordsearch.features.mainmenu.MainMenuActivity">
+    tools:context="com.example.sumit.WordGuessing.features.mainmenu.MainMenuActivity">
 
     <ImageButton
         android:id="@+id/about_button"
