@@ -9,7 +9,7 @@
 • Admin
 • Player
 
-## 4. Languages, Tools & Database Used :
+## 3. Languages, Tools & Database Used :
 
 • Core Language : CORE JAVA
 • Database : SQLite
